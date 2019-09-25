@@ -18,6 +18,9 @@ body {
 .bck_red {
     background: #ff4800;
 }
+.bck_blue {
+    background: #1722c0;
+}
 .bck_yellow {
     background: #ffa800;
 }
@@ -89,22 +92,23 @@ footer .footer_copyright {
     position: absolute;
     top: 50%;
     left: 50%;
-    width: 400px;
-    height: 160px;
+    width: 600px;
+    height: 200px;
     -webkit-transform: translate(-50%, -50%);  
     transform: translate(-50%, -50%);   
     border: 2px solid white;
+    background: #5d5d5d;
 }
 
 .artist_name .wrapper {
     border: 2px solid white;
-    height: 121px;
+    height: 160px;
     margin: 6px;
     text-align: center;
     color: #fff;
-    font-size: 40px;
+    font-size: 100px;
     padding: 21px 70px 0px 70px;
-    text-transform: uppercase;
+    /*text-transform: uppercase;*/
 }
 
 /*====================
@@ -197,8 +201,8 @@ footer .footer_copyright {
     background-size: contain !important;
     background-repeat: no-repeat !important;
     position: absolute;
-    top: -30px;
-    left: 124px;
+    top: 25px;
+    left: 25px;
 }
 
 .vn_item .vn_title {
